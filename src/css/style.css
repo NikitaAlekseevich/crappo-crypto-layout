@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+    --dark: #0D0D2B;
+    --blue: #3671E9;
+    --purple: #3671E9;
+}
+
+body{
+    background-color: var(--dark);
+    color: white;
+    font-family: 'Rubik', sans-serif;
+
+}

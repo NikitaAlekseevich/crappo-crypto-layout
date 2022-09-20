@@ -271,6 +271,7 @@ body{
 .page-light {
     background-color: #F8F9FB;
     color: var(--dark);
+    padding-bottom: 40px;
 }
 
 .page-light__title {
@@ -418,8 +419,8 @@ body{
 
 .page-gradient {
     background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 88px;
+    padding-bottom: 88px;
 }
 
 .form {
@@ -427,7 +428,7 @@ body{
     border-radius: 16px;
     display: flex;
     justify-content: space-between;
-    padding: 30px 30px;
+    padding: 54px 50px;
 }
 
 .form-text {
@@ -463,6 +464,7 @@ body{
     color: white;
     width: 100%;
     margin-right: 40px;
+    padding: 10px 0;
 }
 
 .form-letter__input::placeholder {
@@ -478,4 +480,31 @@ body{
     padding: 15px 32px;
     border-radius: 32px;
 
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1202px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+}
+
+.footer-list__item {
+    margin-left: 32px;
+}
+
+.footer-list__item:first-child {
+    margin-left: 0;
 }
